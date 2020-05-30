@@ -1,0 +1,147 @@
+header{
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 570px;
+    width:100%;
+    /*border: 1px solid #eebb55;*/
+    border-radius: 7pt;
+    background-image:url('1.jpg')        
+    /*background-color: #ffeebb;*/
+}
+ footer{
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 100px;
+    width:100%;
+    margin-top:100px;
+    /*border: 1px solid #eebb55;*/
+    border-radius: 7pt;
+    /*background-color: #ffeebb;*/
+}
+.main {
+    min-height: 300px;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+}
+
+/*.main > nav {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #8888bb;
+    border-radius: 7pt;
+    background-color: #ccccff;
+    -webkit-flex: 1 6 20%;
+    flex: 1 6 20%;
+}*/
+
+/*.main > aside {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #8888bb;
+    border-radius: 7pt;
+    background-color: #ccccff;
+    -webkit-flex: 1 6 20%;
+    flex: 1 6 20%;
+}*/
+
+/*.main > article {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7pt;
+    background-color: #dddd88;
+    -webkit-flex: 3 1 60%;
+    flex: 3 1 60%;
+ }  */
+
+/* Home page part*/
+/* set the header style*/
+ .top{
+    margin-top:20px;
+    width: 100%;
+    min-height: 50px;
+}
+.title {
+    min-width: 10px;
+    min-height:20px;
+    float: left;
+    margin-left:3%;
+    padding:10px;
+}
+.logo_home {
+    float: left;
+    min-width: 10px;
+    min-height:20px;
+}
+.navigation{
+    margin-left:20%;
+    min-width: 10px;
+    min-height:20px;
+}
+/*set the home page menu style*/
+header li{
+    display: inline-block;
+    padding: 8px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    /*margin-top: 100px;
+    background-color: #FFFF99;*/
+}
+.signincontainer{
+    float: left;
+    margin-top:140px;
+    margin-left:8%;
+    min-height: 100px;
+    width:100%;
+}
+.signinname{
+    float:left;
+    min-height:100px;
+    margin-top:40px;
+    width:40%;
+}
+.main_comment{
+    float: right;
+    margin-top:40px;
+    margin-right:20%;
+    min-height: 100px;
+    width:30%;
+    text-align:center;
+}
+/*set the main style*/
+.detail_one{
+    width:25%;
+    min-height:100px;
+    margin-left:10%;
+    margin-top:70px;
+    padding:20px;
+}
+.detail_two{
+    width:25%;
+    min-height:100px;
+    margin-left:5%;
+    margin-top:70px;
+    padding:20px;
+}
+.detail_three{
+    width:25%;
+    min-height:100px;
+    margin-left:5%;
+    margin-top:70px;
+    padding:20px;
+}
+/*set the footer style*/
+.footer_home{
+    width:100%;
+    min-height:80px;
+}
+footer li{
+    margin-left:27%;
+}
